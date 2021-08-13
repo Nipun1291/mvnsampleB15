@@ -33,6 +33,7 @@ public class ExcelDataTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		System.out.println("Modifying my file");
 	}
 
 	@Test
