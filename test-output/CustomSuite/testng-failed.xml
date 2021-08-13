@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CustomSuite]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="ModuleOneTest(failed)">
+    <classes>
+      <class name="testcripts.TestNGSampleOne">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="f"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testcripts.TestNGSampleOne -->
+    </classes>
+  </test> <!-- ModuleOneTest(failed) -->
+</suite> <!-- Failed suite [CustomSuite] -->
